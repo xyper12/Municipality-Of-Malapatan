@@ -1,0 +1,95 @@
+/* Styles for the header */
+header {
+
+    text-align: right;
+    padding-left: 50px;
+    background-color: transparent;
+    padding: 17px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 65px;
+    z-index: auto;
+    font-size: x-small;
+
+   
+}
+
+/* Styles for the human icon button */
+.human-icon-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 40px; /* Adjust the width of the human icon button */
+    height: 40px; /* Adjust the height of the human icon button */
+    background-image: url('homeicon.png'); /* Specify the path to the human icon image */
+    background-size: cover;
+    position: absolute;
+   left:px; /* Adjust the distance from the right side */
+    top: 50%;
+    transform: translateY(-50%);
+    size: 30px;
+}
+
+/* Styles for the main content */
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px; /* Adjust as needed to leave space for the header */
+    margin-bottom: 80px; /* Adjust as needed to leave space for the footer */
+    position: relative; /* Needed to position the footer properly */
+    min-height: calc(100vh - 130px); /* Adjust based on the header and footer height */
+    background-image: url('MSU.png'); /* Replace 'MSU.png' with the path to your transparent background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 20px;
+    opacity: 0.8; /* Adjust the opacity value as needed */
+}
+
+/* Styles for each author */
+.author {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    container: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.author img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.author h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.author h3 {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.author p {
+    margin-top: 10px;
+    font-size: px;
+}
+
+/* Styles for the footer */
+footer {
+    text-align: center;
+    background-color: transparent;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

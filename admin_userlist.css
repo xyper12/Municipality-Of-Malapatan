@@ -1,0 +1,62 @@
+/* admin.css */
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+form h3 {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* User list styling */
+.userList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.userList th, .userList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.userList th {
+    background-color: #f2f2f2;
+}
+
+.userList tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.userList tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Button styling */
+.editButton, .deleteButton {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.editButton:hover, .deleteButton:hover {
+    background-color: #0056b3;
+}
