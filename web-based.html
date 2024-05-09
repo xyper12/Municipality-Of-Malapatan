@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="web-based.css">
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                    <option value="admin.html">Admin</option>
+                    <option value="user.html">User</option>
+                </select>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        
+        <!-- Registration Text -->
+        <p class="registration-text">Don't have an account? <span id="registrationButton">Register</span></p>
+        
+        <!-- Registration Form (Initially hidden) -->
+        <form id="Registration" style="display:display;">
+            <link rel="registrationButton" href="user_registration.html">
+            <h2>Registration</h2>
+            <div class="input-group">
+                <label for="regUsername">Username:</label>
+                <input type="text" id="regUsername" name="regUsername" required>
+            </div>
+            <div class="input-group">
+                <label for="regPassword">Password:</label>
+                <input type="password" id="regPassword" name="regPassword" required>
+            </div>
+            <!-- Add other registration fields here -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    
+    <script src="web-based.js"></script>
+</body>
+</html>
